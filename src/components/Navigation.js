@@ -1,5 +1,4 @@
 import React from "react";
-import Project from "./Project";
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
@@ -7,42 +6,46 @@ function Navigation({ currentPage, handlePageChange }) {
       <h1>Hank Richter</h1>
       <ul>
         <li>
-          About Me
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
-          ></a>
+          >
+            About Me
+          </a>
         </li>
         <li>
-          Portfolio
           <a
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
             className={
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
             }
-          ></a>
+          >
+            Portfolio
+          </a>
         </li>
         <li>
-          Contact
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
             className={
               currentPage === "Contact" ? "nav-link active" : "nav-link"
             }
-          ></a>
+          >
+            Contact
+          </a>
         </li>
         <li>
-          Resume
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}
             className={
               currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
-          ></a>
+          >
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
