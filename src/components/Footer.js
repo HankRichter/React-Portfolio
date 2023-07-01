@@ -7,7 +7,9 @@ function Footer() {
       <a href="https://www.linkedin.com/in/edward-richter-291785152/">
         Linkedin
       </a>
-      <a href="https://twitter.com/">Twitter</a>
+      <a href="https://open.spotify.com/user/erichte1?si=12b3009059b5450f">
+        Spotify
+      </a>
     </div>
   );
 }
