@@ -1,36 +1,44 @@
 import React from "react";
+import ResumePDF from "../assets/resume.pdf";
 
 function Resume() {
   return (
     <>
-      <h2>Resume</h2>
       <div>
-        {/* Add Resume link */}
-        <p>Download my Resume</p>
-      </div>
-      <div>
-        <h3>Front-End Knowledge</h3>
-        <ul>
-          <li>List Item 1</li>
-          <li>List Item 1</li>
-          <li>List Item 1</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Back-End Knowledge</h3>
-        <ul>
-          <li>List Item 1</li>
-          <li>List Item 1</li>
-          <li>List Item 1</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Proficiencies</h3>
-        <ul>
-          <li>List Item 1</li>
-          <li>List Item 1</li>
-          <li>List Item 1</li>
-        </ul>
+        <h2>Resume</h2>
+        <div>
+          <a href={ResumePDF} download>
+            Download my Resume
+          </a>
+        </div>
+        <div>
+          <h3>Front-End Knowledge</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Back-End Knowledge</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Proficiencies</h3>
+          <ul>
+            <li>PWAs (Progressive Web Apps)</li>
+            <li>Git (Version Control)</li>
+            <li>OOP (Object-Oriented Programming)</li>
+            <li>MVC (Model-View-Controller Paradigm)</li>
+          </ul>
+        </div>
       </div>
     </>
   );
