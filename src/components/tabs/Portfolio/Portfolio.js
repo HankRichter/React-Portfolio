@@ -1,8 +1,8 @@
 import React from "react";
-// import Project from "./Project";
+import Project from "./Project";
 
 function Portfolio() {
-  return <p>Test 2</p>;
+  return <Project />;
 }
 
 export default Portfolio;
