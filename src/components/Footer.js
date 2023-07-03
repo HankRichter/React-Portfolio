@@ -2,6 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
+    <footer>
     <div>
       <a href="https://github.com/HankRichter">GitHub</a>
       <a href="https://www.linkedin.com/in/edward-richter-291785152/">
@@ -11,6 +12,7 @@ function Footer() {
         Spotify
       </a>
     </div>
+    </footer>
   );
 }
 
