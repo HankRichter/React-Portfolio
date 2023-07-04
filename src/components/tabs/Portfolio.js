@@ -19,17 +19,25 @@ const projectData = [
 
 function Portfolio() {
   return (
-    <>
+    <section>
       <h2>Portfolio</h2>
       <div>
-        <a href="#">
-          <div>
-            Placeholder Project
-            <p>Languages used</p>
-          </div>
-        </a>
+      {projectData.map(({id, img, title, production, github})=>{
+        return(
+<article key={id}>
+  <div>
+    <img src={img} alt={title} />
+  </div>
+  <h3>{title}</h3>
+  <div>
+    <a href={production} target="_blank">Production</a>
+    <a href={github} target="_blank">Github</a>
+  </div>
+</article>
+        )
+      })}
       </div>
-    </>
+    </section>
   );
 }
 
