@@ -24,12 +24,12 @@ function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <>
-    <header>
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      {renderPage()}
+      <header>
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+        {renderPage()}
       </header>
     </>
   );
