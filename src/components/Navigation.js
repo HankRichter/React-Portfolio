@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav>
+    <nav className="bg-blue">
       <h1>Hank Richter</h1>
       <ul>
         <li>

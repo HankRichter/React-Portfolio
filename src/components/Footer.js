@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <div>
+      <div className="bg-blue flex space-x-4">
         <a href="https://github.com/HankRichter">GitHub</a>
         <a href="https://www.linkedin.com/in/edward-richter-291785152/">
           Linkedin
