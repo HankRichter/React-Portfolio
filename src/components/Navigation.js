@@ -2,19 +2,21 @@ import React from "react";
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav className="bg-blue-500">
-      <h1>Hank Richter</h1>
-      <ul>
-        <li>
+    <nav className="bg-color2 flex justify-between items-center">
+      <div className="m-6 text-color4">
+        <h1 className="text-5xl">Hank Richter</h1>
+      </div>
+      <ul className="flex-1 text-lg text-color4 justify-between">
+        <li className="mx-5 p-1 border-2 rounded hover:bg-color1">
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
           >
-            About Me
+            About
           </a>
         </li>
-        <li>
+        <li className="mx-5 p-1 border-2 rounded hover:bg-color1">
           <a
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
@@ -25,7 +27,7 @@ function Navigation({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li>
+        <li className="mx-5 p-1 border-2 rounded hover:bg-color1">
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
@@ -36,7 +38,7 @@ function Navigation({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
-        <li>
+        <li className="mx-5 p-1 border-2 rounded hover:bg-color1">
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}
