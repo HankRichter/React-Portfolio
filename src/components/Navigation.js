@@ -6,8 +6,8 @@ function Navigation({ currentPage, handlePageChange }) {
       <div className="m-6 text-color4">
         <h1 className="text-5xl">Hank Richter</h1>
       </div>
-      <ul className="flex-1 text-lg text-color4 justify-between">
-        <li className="mx-5 p-1 border-2 rounded hover:bg-color1">
+      <ul className="flex flex-col m-2 text-base text-color4 md:text-lg md:justify-between md:flex-row">
+        <li className="m-1 p-1 border-2 rounded hover:bg-color1 md:mx-5">
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
@@ -16,7 +16,7 @@ function Navigation({ currentPage, handlePageChange }) {
             About
           </a>
         </li>
-        <li className="mx-5 p-1 border-2 rounded hover:bg-color1">
+        <li className="m-1 p-1 border-2 rounded hover:bg-color1 md:mx-5">
           <a
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
@@ -27,7 +27,7 @@ function Navigation({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li className="mx-5 p-1 border-2 rounded hover:bg-color1">
+        <li className="m-1 p-1 border-2 rounded hover:bg-color1 md:mx-5">
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
@@ -38,7 +38,7 @@ function Navigation({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
-        <li className="mx-5 p-1 border-2 rounded hover:bg-color1">
+        <li className="m-1 p-1 border-2 rounded hover:bg-color1 hover:border-black md:mx-5">
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}
