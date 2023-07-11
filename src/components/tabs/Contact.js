@@ -45,6 +45,7 @@ function Contact() {
 
   return (
     <>
+    <section className="bg-color3">
       <h2>Contact</h2>
       <form>
         <p>Name:</p>
@@ -80,6 +81,7 @@ function Contact() {
           <button type="submit">Send a message</button>
         </div>
       </form>
+      </section>
     </>
   );
 }

@@ -19,7 +19,7 @@ const projectData = [
 
 function Portfolio() {
   return (
-    <section>
+    <section className="bg-color3">
       <h2>Portfolio</h2>
       <div>
         {projectData.map(({ id, img, title, production, github }) => {

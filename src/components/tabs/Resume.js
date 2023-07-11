@@ -4,7 +4,7 @@ import ResumePDF from "../assets/resume.pdf";
 function Resume() {
   return (
     <>
-      <div>
+      <section className="bg-color3">
         <h2>Resume</h2>
         <div>
           <a href={ResumePDF} download>
@@ -39,7 +39,7 @@ function Resume() {
             <li>MVC (Model-View-Controller Paradigm)</li>
           </ul>
         </div>
-      </div>
+      </section>
     </>
   );
 }

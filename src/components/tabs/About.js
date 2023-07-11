@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <>
-      <section>
+      <section className="flex-1 bg-color3 max-h-full">
         <h2>About Me</h2>
         <div>
           <img src="route to picture" alt="Portrait of Hank Richter" />
