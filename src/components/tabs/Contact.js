@@ -45,42 +45,50 @@ function Contact() {
 
   return (
     <>
-    <section className="bg-color3">
-      <h2>Contact</h2>
-      <form>
-        <p>Name:</p>
-        <div>
-          <input
-            type="text"
-            placeholder="Name"
-            name="name"
-            onBlur={handleBlank}
-            required
-          />
-        </div>
-        <p>Email:</p>
-        <div>
-          <input
-            type="email"
-            placeholder="Email"
-            name="email"
-            onBlur={handleChange}
-            required
-          />
-        </div>
-        <p>Message:</p>
-        <div>
-          <textarea
-            placeholder="Your message"
-            name="message"
-            onBlur={handleBlank}
-            required
-          />
-        </div>
-        <div>
-          <button type="submit">Send a message</button>
-        </div>
-      </form>
+      <section className="flex-1 p-3 bg-color3">
+        <h2 className="text-3xl font-semibold mb-2">Contact</h2>
+        <form>
+          <p className="mb-2">Name:</p>
+          <div className="mb-2">
+            <input
+              className="w-48"
+              type="text"
+              placeholder="Name"
+              name="name"
+              onBlur={handleBlank}
+              required
+            />
+          </div>
+          <p className="mb-2">Email:</p>
+          <div className="mb-2">
+            <input
+              className="w-48"
+              type="email"
+              placeholder="Email"
+              name="email"
+              onBlur={handleChange}
+              required
+            />
+          </div>
+          <p className="mb-2">Message:</p>
+          <div className="mb-4">
+            <textarea
+              className="w-48"
+              placeholder="Your message"
+              name="message"
+              onBlur={handleBlank}
+              required
+            />
+          </div>
+          <div>
+            <button
+              type="submit"
+              className="p-1 border-2 rounded hover:bg-color2 hover:text-color4"
+            >
+              Send a message
+            </button>
+          </div>
+        </form>
       </section>
     </>
   );
