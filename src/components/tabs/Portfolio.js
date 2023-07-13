@@ -1,16 +1,18 @@
 import React from "react";
+import Weather from "../assets/Weather.jpg";
+import SpinCycle from "../assets/Spin Cycle.jpg";
 
 const projectData = [
   {
     id: 1,
-    // img: img,
+    img: Weather,
     title: "Weather app",
     production: "https://hankrichter.github.io/Weather-app/",
     github: "https://github.com/HankRichter/Weather-app",
   },
   {
     id: 2,
-    // img: img,
+    img: SpinCycle,
     title: "Spin Cycle",
     production: "https://spin-cycle.herokuapp.com/",
     github: "https://github.com/Tagne13/Spin-Cycle",
@@ -19,15 +21,13 @@ const projectData = [
 
 function Portfolio() {
   return (
-    <section className="bg-color3">
-      <h2>Portfolio</h2>
-      <div>
+    <section className="flex-1 p-3 bg-color3">
+      <h2 className="text-3xl font-semibold mb-2">Portfolio</h2>
+      <div className="flex w-96">
         {projectData.map(({ id, img, title, production, github }) => {
           return (
-            <article key={id}>
-              <div>
-                <img src={img} alt={title} />
-              </div>
+            <article className="border-2" key={id}>
+              <img src={img} alt={title} />
               <h3>{title}</h3>
               <div>
                 <a href={production} target="_blank">
