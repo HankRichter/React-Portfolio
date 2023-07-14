@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.cd251ef2.css",
+    "main.js": "/React-Portfolio/static/js/main.febaa1d8.js",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.3185aac2037f828e6246.pdf",
+    "static/media/Weather.jpg": "/React-Portfolio/static/media/Weather.8ec8707e506490b7a5bc.jpg",
+    "static/media/Portrait.jpg": "/React-Portfolio/static/media/Portrait.cb6a7468778d8b93ce74.jpg",
+    "static/media/Spin Cycle.jpg": "/React-Portfolio/static/media/Spin Cycle.1100b9a38d0eeda14d09.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.cd251ef2.css.map": "/React-Portfolio/static/css/main.cd251ef2.css.map",
+    "main.febaa1d8.js.map": "/React-Portfolio/static/js/main.febaa1d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd251ef2.css",
+    "static/js/main.febaa1d8.js"
+  ]
+}
